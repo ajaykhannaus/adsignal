@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AdSignal — The Paid-Ads Operating System</title>
+  <meta name="description" content="Turn Claude into a full marketing auditor that checks 250+ signals across Google, Meta, LinkedIn & TikTok ads — and tells you exactly what to fix. Open-source Claude Code plugin." />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AdSignal — The Paid-Ads Operating System" />
+  <meta property="og:description" content="Turn Claude into a full marketing auditor that checks 250+ signals across all platforms and tells you exactly what to fix." />
+  <meta property="og:image" content="https://ajaykhannaus.github.io/adsignal/assets/banner.svg" />
+  <meta property="og:url" content="https://ajaykhannaus.github.io/adsignal" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="nav">
+    <span class="brand">◢ AdSignal</span>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#signals">Signals</a>
+      <a href="#service">Sell it</a>
+      <a class="ghbtn" href="https://github.com/ajaykhannaus/adsignal">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="spotlight" aria-hidden="true"></div>
+      <p class="kicker">OPEN SOURCE · CLAUDE CODE PLUGIN</p>
+      <h1>AdSignal</h1>
+      <p class="tagline">The Paid-Ads Operating System</p>
+      <p class="lede">
+        Turn Claude into a full marketing auditor that checks
+        <strong>250+ signals</strong> across Google, Meta, LinkedIn &amp; TikTok —
+        and tells you <strong>exactly what to fix</strong>.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="https://github.com/ajaykhannaus/adsignal">★ Star on GitHub</a>
+        <a class="btn ghost" href="#skills">See the skills</a>
+      </div>
+
+      <div class="terminal" role="img" aria-label="Terminal showing AdSignal commands">
+        <div class="term-bar"><span></span><span></span><span></span><em>claude — adsignal</em></div>
+        <pre><code><span class="c-dim">$</span> claude
+<span class="c-amber">›</span> audit my Google Ads account
+<span class="c-dim">  running AdSignal against 250+ signals…</span>
+
+<span class="c-amber">  ◢ Account Audit — Acme / Google Ads</span>
+  Health score <span class="c-green">62/100</span> · 41 pass · 12 warn · 7 fail
+
+  <span class="c-red">[FAIL]</span> Conversion tracking double-counts      <span class="c-dim">~$3,100/mo</span>
+  <span class="c-red">[FAIL]</span> Top campaign capped by budget            <span class="c-dim">~$2,400/mo</span>
+  <span class="c-amber">[WARN]</span> 19 zero-conversion search terms          <span class="c-dim">~$1,800/mo</span>
+
+  <span class="c-green">▸ Do this week:</span> fix the duplicate conversion tag first.</code></pre>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Four commands. One operating system.</h2>
+      <p class="section-sub">Each is a Claude Code skill that activates automatically when you ask.</p>
+      <div class="cards">
+        <article class="card">
+          <span class="cmd">/ads audit</span>
+          <h3>Audit</h3>
+          <p>Grades any account against 250+ signals and returns a fix list ranked by <strong>dollar impact</strong> — not by what's easy to spot.</p>
+        </article>
+        <article class="card">
+          <span class="cmd">/ads plan</span>
+          <h3>Plan</h3>
+          <p>Builds a media plan, budget split, honest forecast range, and a 90-day testing roadmap from a goal and a budget.</p>
+        </article>
+        <article class="card">
+          <span class="cmd">/ads create</span>
+          <h3>Create</h3>
+          <p>Writes platform-spec ad copy — RSAs, Meta, LinkedIn, TikTok — starting from strategic angles, with a testing matrix.</p>
+        </article>
+        <article class="card">
+          <span class="cmd">/ads compete</span>
+          <h3>Compete</h3>
+          <p>Competitive teardown → messaging map of crowded vs. open space → the wedge angle you can credibly own.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SIGNALS -->
+    <section id="signals" class="section alt">
+      <h2>250+ signals across 8 categories</h2>
+      <p class="section-sub">The same checklist a $1,500 agency audit runs — open-sourced.</p>
+      <div class="grid8">
+        <div class="sig"><span>01</span>Account structure &amp; settings</div>
+        <div class="sig"><span>02</span>Budget &amp; bidding</div>
+        <div class="sig"><span>03</span>Targeting — keywords &amp; audiences</div>
+        <div class="sig"><span>04</span>Waste control — negatives &amp; exclusions</div>
+        <div class="sig"><span>05</span>Creative &amp; copy</div>
+        <div class="sig"><span>06</span>Landing page &amp; post-click</div>
+        <div class="sig"><span>07</span>Conversion tracking &amp; measurement</div>
+        <div class="sig"><span>08</span>Reporting, attribution &amp; incrementality</div>
+      </div>
+      <p class="center">
+        <a class="btn ghost" href="https://github.com/ajaykhannaus/adsignal/blob/main/reference/signal-library.md">Browse the full signal library →</a>
+      </p>
+    </section>
+
+    <!-- SERVICE -->
+    <section id="service" class="section">
+      <div class="service">
+        <h2>Run it as a <span class="amber">$1,500</span> ad-audit service</h2>
+        <p>
+          Agencies charge four figures for a one-time paid-ads audit. AdSignal gives you
+          the engine to deliver one in an afternoon — auditing, planning, creative, and
+          competitive research in a single, repeatable workflow. Use it for your own
+          accounts, or productize it.
+        </p>
+        <ol class="steps">
+          <li><strong>Install</strong> the open-source plugin in Claude Code.</li>
+          <li><strong>Audit</strong> a client's account against 250+ signals.</li>
+          <li><strong>Deliver</strong> a prioritized, dollar-impact report they'll pay for.</li>
+        </ol>
+        <p class="disclaimer">AdSignal audits and advises only — it never edits, pauses, or spends inside a live ad account. You stay in control.</p>
+      </div>
+    </section>
+
+    <section class="finalcta">
+      <h2>Free. Open source. Yours.</h2>
+      <a class="btn primary big" href="https://github.com/ajaykhannaus/adsignal">Get AdSignal on GitHub →</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>MIT licensed · Built with Claude Code · <a href="https://github.com/ajaykhannaus/adsignal">github.com/ajaykhannaus/adsignal</a></p>
+  </footer>
+</body>
+</html>

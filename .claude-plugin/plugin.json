@@ -1,0 +1,30 @@
+{
+  "name": "adsignal",
+  "displayName": "AdSignal",
+  "version": "0.1.0",
+  "description": "The Paid-Ads Operating System. Turn Claude into a full marketing auditor that checks 250+ signals across Google, Meta, LinkedIn, TikTok and more — and tells you exactly what to fix.",
+  "author": {
+    "name": "Ajay Khanna",
+    "url": "https://github.com/ajaykhannaus"
+  },
+  "license": "MIT",
+  "homepage": "https://ajaykhannaus.github.io/adsignal",
+  "repository": "https://github.com/ajaykhannaus/adsignal",
+  "keywords": [
+    "claude-code",
+    "paid-ads",
+    "ppc",
+    "google-ads",
+    "meta-ads",
+    "linkedin-ads",
+    "marketing",
+    "audit",
+    "ad-ops"
+  ],
+  "skills": [
+    "./skills/ads-audit",
+    "./skills/ads-plan",
+    "./skills/ads-create",
+    "./skills/ads-compete"
+  ]
+}

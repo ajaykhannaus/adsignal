@@ -1,0 +1,56 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <radialGradient id="spot" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#ff8c42" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#ff8c42" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff8c42" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffb066"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0b12"/>
+      <stop offset="100%" stop-color="#06070c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="120" cy="90" r="1.4"/><circle cx="300" cy="140" r="1"/><circle cx="520" cy="70" r="1.6"/>
+    <circle cx="760" cy="120" r="1"/><circle cx="980" cy="80" r="1.4"/><circle cx="1080" cy="180" r="1"/>
+    <circle cx="180" cy="260" r="1"/><circle cx="1010" cy="300" r="1.3"/><circle cx="90" cy="430" r="1.2"/>
+    <circle cx="1120" cy="470" r="1"/><circle cx="640" cy="540" r="1.2"/><circle cx="240" cy="560" r="1"/>
+    <circle cx="420" cy="500" r="1"/><circle cx="860" cy="520" r="1.3"/>
+  </g>
+  <ellipse cx="600" cy="0" rx="640" ry="400" fill="url(#spot)"/>
+
+  <text x="600" y="150" text-anchor="middle" fill="#ff8c42" font-size="22" letter-spacing="9" font-weight="700">OPEN SOURCE · CLAUDE CODE PLUGIN</text>
+
+  <text x="600" y="300" text-anchor="middle" fill="url(#title)" font-size="150" font-weight="800" letter-spacing="-4">AdSignal</text>
+
+  <text x="600" y="356" text-anchor="middle" fill="#ffb066" font-size="34" font-weight="700">The Paid-Ads Operating System</text>
+
+  <text x="600" y="416" text-anchor="middle" fill="#9aa0b4" font-size="26" font-weight="400">Audit <tspan fill="#ffffff" font-weight="700">250+ signals</tspan> across every platform — and fix exactly what's broken.</text>
+
+  <!-- command chips -->
+  <g font-family="'JetBrains Mono','Courier New',monospace" font-size="24" font-weight="700">
+    <g transform="translate(258,486)">
+      <rect width="158" height="54" rx="10" fill="#11131d" stroke="#ff8c42" stroke-opacity="0.5"/>
+      <text x="79" y="35" text-anchor="middle" fill="#ffb066">/ads audit</text>
+    </g>
+    <g transform="translate(430,486)">
+      <rect width="150" height="54" rx="10" fill="#11131d" stroke="#1f2230"/>
+      <text x="75" y="35" text-anchor="middle" fill="#e7e9f0">/ads plan</text>
+    </g>
+    <g transform="translate(594,486)">
+      <rect width="166" height="54" rx="10" fill="#11131d" stroke="#1f2230"/>
+      <text x="83" y="35" text-anchor="middle" fill="#e7e9f0">/ads create</text>
+    </g>
+    <g transform="translate(774,486)">
+      <rect width="170" height="54" rx="10" fill="#11131d" stroke="#1f2230"/>
+      <text x="85" y="35" text-anchor="middle" fill="#e7e9f0">/ads compete</text>
+    </g>
+  </g>
+</svg>
