@@ -13,7 +13,7 @@ They're underperforming because of 250 small things nobody has time to check.
 
 So I open-sourced the checklist.
 
-Meet **AdSignal** — a free Claude Code plugin that turns Claude into a full paid-ads auditor. You point it at a Google, Meta, LinkedIn or TikTok account, and it grades 250+ signals across 8 categories, then hands you a fix list ranked by **dollar impact** — not by what's easy to spot.
+Meet **AdSignal** — a free Claude Code plugin that turns Claude into a full paid-ads auditor. You point it at a Google, Meta, LinkedIn or TikTok account, and it grades 250 rules across 8 categories, then hands you a fix list ranked by **dollar impact** — not by what's easy to spot.
 
 Four commands:
 
@@ -24,9 +24,9 @@ Four commands:
 
 It audits and advises — it never touches your live account. You stay in control.
 
-Agencies charge $1,500 for this audit. The engine behind it is now free and MIT-licensed. Use it on your own accounts, or productize it into a service.
+The whole thing is 100% free and MIT-licensed. No paywall, no trial, no account — just clone it and run it on as many accounts as you want.
 
-⭐ Star it, fork it, add your own signals → link in the comments.
+⭐ Star it, fork it, add your own rules → link in the comments.
 
 What's the #1 signal you'd add to the checklist? 👇
 
@@ -38,11 +38,11 @@ What's the #1 signal you'd add to the checklist? 👇
 
 I open-sourced a 250-point paid-ads audit.
 
-**AdSignal** is a free Claude Code plugin that turns Claude into a full ad auditor — it checks 250+ signals across Google, Meta, LinkedIn & TikTok and tells you exactly what to fix, ranked by how much money it's costing you.
+**AdSignal** is a free Claude Code plugin that turns Claude into a full ad auditor — it checks 250 rules across Google, Meta, LinkedIn & TikTok and tells you exactly what to fix, ranked by how much money it's costing you.
 
 Four commands: /ads audit · /ads plan · /ads create · /ads compete
 
-Agencies charge $1,500 for this. It's now free and MIT-licensed.
+100% free and MIT-licensed — no paywall, no catch.
 
 Link in comments. What signal would you add? 👇
 
@@ -52,7 +52,7 @@ Link in comments. What signal would you add? 👇
 
 ## First comment (post this yourself right after publishing)
 
-Repo + full 250-signal library here → https://github.com/ajaykhannaus/adsignal
+Repo + full 250-rule library here → https://github.com/ajaykhannaus/adsignal
 Live site → https://ajaykhannaus.github.io/adsignal
 
 ---

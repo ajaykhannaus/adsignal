@@ -4,7 +4,7 @@
 
 ### The Paid-Ads Operating System
 
-Turn Claude into a full marketing auditor that checks **250+ signals** across Google,
+Turn Claude into a full marketing auditor that checks **250 rules** across Google,
 Meta, LinkedIn, TikTok & Microsoft Ads — and tells you **exactly what to fix**.
 
 [**🌐 Website**](https://ajaykhannaus.github.io/adsignal) ·
@@ -19,12 +19,12 @@ Meta, LinkedIn, TikTok & Microsoft Ads — and tells you **exactly what to fix**
 
 AdSignal is an open-source [Claude Code](https://claude.com/claude-code) plugin. It
 gives Claude four paid-media skills so you can audit, plan, write, and out-position
-ad campaigns from your terminal — the same workflow agencies charge **$1,500+** for
-as a one-off ad audit.
+ad campaigns from your terminal — an agency-grade workflow that's **100% free and
+open source**.
 
 | Skill | What it does | Try it with |
 |-------|--------------|-------------|
-| **`ads-audit`** | Grades an account against 250+ signals and returns a prioritized, dollar-impact fix list | *"Audit my Google Ads account"* |
+| **`ads-audit`** | Grades an account against 250 rules and returns a prioritized, dollar-impact fix list | *"Audit my Google Ads account"* |
 | **`ads-plan`** | Builds a media plan, budget split, forecast, and 90-day test roadmap | *"Plan my $10k/mo ad budget"* |
 | **`ads-create`** | Writes platform-spec ad copy and creative, with a testing matrix | *"Write Google RSAs for my SaaS"* |
 | **`ads-compete`** | Competitive teardown → messaging map → the wedge you can own | *"Analyze my competitors' ads"* |

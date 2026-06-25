@@ -32,7 +32,7 @@
 
   <text x="600" y="356" text-anchor="middle" fill="#ffb066" font-size="34" font-weight="700">The Paid-Ads Operating System</text>
 
-  <text x="600" y="416" text-anchor="middle" fill="#9aa0b4" font-size="26" font-weight="400">Audit <tspan fill="#ffffff" font-weight="700">250+ signals</tspan> across every platform — and fix exactly what's broken.</text>
+  <text x="600" y="416" text-anchor="middle" fill="#9aa0b4" font-size="26" font-weight="400">Audit <tspan fill="#ffffff" font-weight="700">250 rules</tspan> across every platform — free &amp; open source.</text>
 
   <!-- command chips -->
   <g font-family="'JetBrains Mono','Courier New',monospace" font-size="24" font-weight="700">

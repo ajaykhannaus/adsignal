@@ -2,7 +2,7 @@
   "name": "adsignal",
   "displayName": "AdSignal",
   "version": "0.1.0",
-  "description": "The Paid-Ads Operating System. Turn Claude into a full marketing auditor that checks 250+ signals across Google, Meta, LinkedIn, TikTok and more — and tells you exactly what to fix.",
+  "description": "The Paid-Ads Operating System. A free, open-source Claude Code plugin that turns Claude into a full marketing auditor — checking 250 rules across Google, Meta, LinkedIn, TikTok and more, and telling you exactly what to fix.",
   "author": {
     "name": "Ajay Khanna",
     "url": "https://github.com/ajaykhannaus"
