@@ -1,6 +1,7 @@
 # LinkedIn launch post — AdSignal
 
-**Attach:** `marketing/linkedin-image.png` (1200×630)
+**Attach (recommended):** `marketing/linkedin-post-image.png` — square 1200×1200, built for the feed.
+**Alt (link-preview / banner):** `marketing/linkedin-image.png` — 1200×630.
 **Link in first comment (not the post body — protects reach):** https://github.com/ajaykhannaus/adsignal
 
 ---
@@ -54,6 +55,7 @@ Link in comments. What signal would you add? 👇
 
 Repo + full 250-rule library here → https://github.com/ajaykhannaus/adsignal
 Live site → https://ajaykhannaus.github.io/adsignal
+See a sample audit report → https://ajaykhannaus.github.io/adsignal/demo.html
 
 ---
 
